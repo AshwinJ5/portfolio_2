@@ -1,0 +1,55 @@
+:root{
+  --body_background:white;
+  --body_color:black
+}
+[data-theme="dark"]{
+  --body_background:#121212;
+  --body_color:white
+}
+
+
+.titleText{
+    margin: auto !important;
+    color: #d50f9f !important;
+}
+.textLight {
+    color: var(--body_color) !important;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.6s ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center !important;
+  }
+  
+  .textLight:hover {
+    color: #d50f9f !important;
+    transition: color 0.6s ease;
+
+  }
+  .titleText{
+    font-family: "Kalam", cursive;
+  }
+  .navList{
+   margin:auto  !important;
+  }
+  .nav-link.active-link {
+    color: #d50f9f; /* Custom color for the active link */
+    font-weight: bold;
+    border-bottom: 2px solid #d50f9f; /* Optional: Add a border to highlight the active link */
+  }
+  
+.mainNavbar{
+  background-color: var(--body_background);
+  z-index: 2;
+}
+
+  /* Optional: Adjust the spacing or alignment */
+.navList {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  padding: 0.75rem 1.5rem;
+}

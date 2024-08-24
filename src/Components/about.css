@@ -1,0 +1,21 @@
+.mainAboutDiv:hover div h2{
+    color: #d50f9f !important;
+    transition: color 0.5s ease;
+}
+.mainAboutDiv {
+    background-image: url("../assets/bla.jpg") ;
+    height: 100vh !important;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container .col-lg-5{
+    text-align: center;
+}
+.container .col-lg-5 img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+

@@ -1,0 +1,136 @@
+:root{
+    --body_background:white;
+    --body_color:black
+}
+[data-theme="dark"]{
+    --body_background:#121212;
+    --body_color:white;
+    --primary_color:#d50f9f
+}
+
+a{
+    color: var(--body_color) !important;
+}
+body{
+    background-color:var(--body_background) !important;
+    
+  }
+  *{
+    color: var(--body_color);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+h2, .divCenter{
+    text-align: center;
+    color: var(--body_color) !important;
+}
+h2{
+    padding-top: 2rem;
+    font-weight: 700 !important;
+}
+h2:hover{
+    color: #d50f9f !important;
+    transition: color 0.5s ease;
+
+}
+.row div div i{
+    margin-right: 1rem;
+}
+.row div div a{
+    text-decoration: none;
+    color: white;
+}
+.row div div a:hover{
+    text-decoration: underline;
+    /* color: #d50f9f; */
+}
+.row div div {
+    padding-top: .5rem;
+}
+.row .colRow{
+    padding: 2rem;
+    
+}
+.contactSuscribe, .suscribe, .suscribeTextarea{
+    display: flex;
+    justify-content: space-around;
+}
+.contactSuscribe input{
+    border: var(--body_color) 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+    width: 45%;
+    color: white;
+    background-color: var(--body_background);
+}
+.suscribe input{
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    border: var(--body_color) 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: var(--body_background);
+
+}
+.suscribeTextarea textarea{
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    border: var(--body_color) 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+    height: 5rem;
+    background-color: var(--body_background);
+
+}
+.whatsappButton{
+    background-color: #25D366;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.whatsappButton:hover{
+    background-color: #25D366;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.whatsappButton i{
+    background-color: #25D366;
+    size: 1rem;
+    padding-right: 5px;
+    scale: 1.1;
+}
+.subscribeButton{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d50f9f;
+    margin-left: 1rem;
+    text-align: center;
+}
+.subscribeButton:hover{
+    background-color: #d50f9f;
+    cursor: pointer;
+    color: var(--body_background);
+}
+.mainContactDiv:hover h2{
+    color: #d50f9f !important;
+    transition: color 0.5s ease;
+}
+
+.footerDiv{
+    color: var(--body_color);
+}
