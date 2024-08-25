@@ -1,5 +1,5 @@
 :root{
-    --body_background:white;
+    --body_background:#fff;
     --body_color:black
 }
 [data-theme="dark"]{

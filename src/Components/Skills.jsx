@@ -17,6 +17,7 @@ import githubPng from '../assets/githubb.png'
 import tailwindPng from '../assets/tailwind.png'
 import vitePng from '../assets/vite.png'
 import vsCodePng from '../assets/vs.png'
+import fireBasePng from '../assets/fire.png'
 import Aos from 'aos'
 
 function Skills() {
@@ -57,10 +58,6 @@ function Skills() {
         </div>
         <div className="row w-100 container my-5 text-center " data-aos-once='true'  data-aos='fade-right'>
             <div className="col-lg-2 col-4">
-            <img src={angularPng} alt="" />
-            <p>ANGULAR</p>
-            </div>
-            <div className="col-lg-2 col-4">
             <img src={nodePng} alt="" />
             <p>NODE JS</p>
             </div>
@@ -73,23 +70,24 @@ function Skills() {
             <p>MATERIAL UI</p>
             </div>
             <div className="col-lg-2 col-4">
-            <img src={githubPng} alt="" />
-            <p>GITHUB</p>
+            <img src={fireBasePng} alt="" />
+            <p>FIREBASE</p>
             </div>
             <div className="col-lg-2 col-4">
-            <img src={postmanPng} alt="" />
-            <p>POSTMAN</p>
+            <img src={vitePng} alt="" />
+            <p>VITE JS</p>
+            </div>
+            <div className="col-lg-2 col-4">
+            <img src={angularPng} alt="" />
+            <p>ANGULAR</p>
             </div>
         </div>
         <div className="row w-100 container text-center my-5"  data-aos-once='true' data-aos='fade-right'>
-            <div className="col-lg-6 col-6">
-            <img src={vsCodePng} alt="" />
-            <p>V S Code</p>
+            <div className="col-lg-12 col-12">
+            <img src={githubPng} alt="" />
+            <p>GITHUB</p>
             </div>
-            <div className="col-lg-6 col-6">
-            <img src={vitePng} alt="" />
-            <p>Vite Js</p>
-            </div>
+            
         </div>
         {/* <div className="row w-100 container text-center my-5">
             <div className="col-lg-3 col-4">

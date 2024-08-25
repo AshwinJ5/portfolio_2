@@ -46,7 +46,13 @@ function Navbar() {
       <MDBNavbar expand='lg' sticky className='w-100 mainNavbar'>
         <MDBContainer className='container w-100' fluid>
           <MDBNavbarBrand href='/' className='titleText' style={{ color: '#d50f9f', fontWeight: '900', fontSize: '30px' }}>
+            <span className='me-2'>
+            &lt;
+            </span>
             ASHWIN JOSEPH
+            <span className='ms-2'>
+            / &gt;
+            </span>
           </MDBNavbarBrand>
           <MDBNavbarToggler
             aria-controls='navbarSupportedContent'

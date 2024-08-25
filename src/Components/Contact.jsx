@@ -40,7 +40,7 @@ function Contact() {
               Chat on WhatsApp
               </a>
             </div>
-            <div className="col-lg-6  my-auto colRow col-12"  data-aos='fade-right'  data-aos-once='true'  data-aos-delay='1000'>
+            <div className="col-lg-6  my-auto colRow col-12"  data-aos='fade-right'  data-aos-once='true'  data-aos-delay='300'>
             <h6>Subscribe me</h6>  
               <form>
                 <div className="d-flex contactSuscribe">

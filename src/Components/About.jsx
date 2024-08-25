@@ -5,6 +5,7 @@ import img from '../assets/dp.jpg'
 import { Button } from 'react-bootstrap';
 import resume from '../assets/aj.pdf'
 import Aos from 'aos'
+import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 
 function About() {
@@ -46,7 +47,31 @@ function About() {
                 A motivated MERN Stack Developer with a solid foundation in both front-end and back-end development. Skilled in building dynamic and responsive web applications that deliver seamless user experiences. Proficient in React, Node.js, Express.js, and MongoDB, with a strong focus on creating efficient, scalable, and maintainable code. Eager to explore innovative solutions and contribute to impactful software projects. Passionate about teamwork and always ready to take on leadership roles to drive project success. Committed to continuous learning and growth in the ever-evolving world of web development.
                 </p>
                 <br />
-                
+                <section className='mb-4'>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/profile.php?id=100005228958736' role='button'>
+            <MDBIcon style={{color:'#316FF6'}} fab icon='facebook-f' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1 twitter' href='https://twitter.com/AshwinJ49426441' role='button'>
+            <MDBIcon className='smediaLogo' fab icon='x-twitter' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='mailto:ashwinjoseph03@gmail.com' role='button'>
+          <MDBIcon  style={{color: '#C71610'}} fas icon='envelope' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/mr_a_j_5/' role='button'>
+            <MDBIcon style={{color:'#d62976 '}} fab icon='instagram' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/ashwin-joseph-737602298/' role='button'>
+            <MDBIcon style={{color:'#0077B5 '}} fab icon='linkedin-in' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1 github' href='https://github.com/AshwinJ5' role='button'>
+            <MDBIcon className='smediaLogo' fab icon='github' />
+          </MDBBtn>
+        </section>
                 <br />
                 <a href={resume}  download='Ashwin Joseph CV'>
             <btn className='btn text-light my-5 me-2 rounded-pill' style={{backgroundColor:'#d50f9f'}}>Resume <span><i className="fa-solid text-white fa-download fa-bounce"></i></span></btn></a>

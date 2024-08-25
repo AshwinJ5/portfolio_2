@@ -18,4 +18,7 @@
     border-radius: 50%;
 }
 
+.github:hover .smediaLogo, .twitter:hover .smediaLogo{
+    color: black;
+}
 
