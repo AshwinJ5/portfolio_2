@@ -134,3 +134,8 @@ h2:hover{
 .footerDiv{
     color: var(--body_color);
 }
+
+section .m-1:hover .icon{
+    scale: 1.5;
+    transition: .4s ease-in-out;
+}

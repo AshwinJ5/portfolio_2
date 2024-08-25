@@ -49,28 +49,34 @@ function About() {
                 <br />
                 <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/profile.php?id=100005228958736' role='button'>
-            <MDBIcon style={{color:'#316FF6'}} fab icon='facebook-f' />
+            <MDBIcon className='icon' style={{color:'#316FF6'}} fab icon='facebook-f' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 twitter' href='https://twitter.com/AshwinJ49426441' role='button'>
-            <MDBIcon className='smediaLogo' fab icon='x-twitter' />
-          </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='mailto:ashwinjoseph03@gmail.com' role='button'>
-          <MDBIcon  style={{color: '#C71610'}} fas icon='envelope' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/mr_a_j_5/' role='button'>
-            <MDBIcon style={{color:'#d62976 '}} fab icon='instagram' />
+          <MDBIcon  style={{color: '#C71610'}} className='icon' fas icon='envelope' />
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/ashwin-joseph-737602298/' role='button'>
-            <MDBIcon style={{color:'#0077B5 '}} fab icon='linkedin-in' />
+            <MDBIcon style={{color:'#0077B5 '}} className='icon' fab icon='linkedin-in' />
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1 github' href='https://github.com/AshwinJ5' role='button'>
-            <MDBIcon className='smediaLogo' fab icon='github' />
+            <MDBIcon className='smediaLogo icon' fab icon='github' />
           </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/mr_a_j_5/' role='button'>
+            <MDBIcon style={{color:'#d62976 '}} className='icon' fab icon='instagram' />
+          </MDBBtn>
+
+          {/* <MDBBtn outline color="light" floating className='m-1 twitter' href='https://twitter.com/AshwinJ49426441' role='button'>
+            <MDBIcon className='smediaLogo icon' fab icon='x-twitter' />
+          </MDBBtn> */}
+         
+          <MDBBtn outline color="light" floating className='m-1' href='https://wa.me/+918606089808' role='button'>
+            <MDBIcon  style={{color:'#25D366'}} className='smediaLogo icon' fab icon='whatsapp' />
+          </MDBBtn>
+
         </section>
                 <br />
                 <a href={resume}  download='Ashwin Joseph CV'>

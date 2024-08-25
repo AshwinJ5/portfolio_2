@@ -35,10 +35,10 @@ function Contact() {
               <span>+91 8606089808</span>
               </div>
               <br />
-              <a href='https://wa.me/+918606089808' className='whatsappButton mt-3'>
+              {/* <a href='https://wa.me/+918606089808' className='whatsappButton mt-3'>
               <i className="fa-brands fa-whatsapp"></i>
               Chat on WhatsApp
-              </a>
+              </a> */}
             </div>
             <div className="col-lg-6  my-auto colRow col-12"  data-aos='fade-right'  data-aos-once='true'  data-aos-delay='300'>
             <h6>Subscribe me</h6>  
