@@ -35,7 +35,6 @@ body{
     pointer-events: none;
     transition: all .5s;
     
-    
 }
 .to-top i {
     color: var(--body_background) !important;
