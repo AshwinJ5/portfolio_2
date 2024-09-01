@@ -20,7 +20,7 @@ function About() {
             <h2 className='text-light'>ABOUT ME</h2>
             <div className='divCenter text-light'>Who am I?</div> 
         <div className="row container  w-100 py-5">
-            <div className="col-lg-5" data-aos='fade-right' data-aos-once='true'  data-aos-delay='1000'>
+            <div className="col-lg-5 aboutImg" data-aos='fade-right' data-aos-once='true'  data-aos-delay='1000'>
                 <img src={img} alt="" />
             </div>
             <div className="col-lg-7"  data-aos='fade-right'>

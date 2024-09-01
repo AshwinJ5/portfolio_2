@@ -13,8 +13,40 @@ a{
 }
 body{
     background-color:var(--body_background) !important;
+    padding: 0;
+    margin: 0;
     
   }
+
+.to-top{
+    background-color: var(--body_color) !important;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0;
+    font-size: 2rem;
+    pointer-events: none;
+    transition: all .5s;
+    
+    
+}
+.to-top i {
+    color: var(--body_background) !important;
+    
+}
+.to-top.active{
+    bottom: 2rem;
+    pointer-events: auto;
+    opacity: 1;
+}
+
   *{
     color: var(--body_color);
   }

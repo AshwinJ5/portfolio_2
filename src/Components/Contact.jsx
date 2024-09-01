@@ -20,7 +20,7 @@ function Contact() {
               </p>
               <div>
               <i class="fa-solid fa-at"></i>
-              <span>ashwinjoseph03@gmail.com</span>
+              <a href='mailto:ashwinjoseph03@gmail.com'>ashwinjoseph03@gmail.com</a>
               </div>
               <div>
               <i class="fa-brands fa-github"></i>

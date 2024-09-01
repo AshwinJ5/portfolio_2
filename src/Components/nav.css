@@ -9,8 +9,8 @@
 
 
 .titleText{
-    margin: auto !important;
     color: #d50f9f !important;
+    align-items: start !important;
 }
 .textLight {
     color: var(--body_color) !important;

@@ -19,7 +19,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'services', 'skills', 'projects', 'contact'];
+      const sections = [ 'about', 'skills', 'projects','education', 'services', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       sections.forEach((section) => {
@@ -45,7 +45,7 @@ function Navbar() {
     <>
       <MDBNavbar expand='lg' sticky className='w-100 mainNavbar'>
         <MDBContainer className='container w-100' fluid>
-          <MDBNavbarBrand href='/' className='titleText' style={{ color: '#d50f9f', fontWeight: '900', fontSize: '30px' }}>
+          <MDBNavbarBrand href='/' className='titleText text-start' style={{ color: '#d50f9f', fontWeight: '900', fontSize: '30px' }}>
             <span className='me-2'>
             &lt;
             </span>
@@ -67,7 +67,7 @@ function Navbar() {
 
           <MDBCollapse navbar className='me-auto' open={openBasic}>
           <MDBNavbarNav className='ms-auto navList mb-2 mb-lg-0 text-light'>
-          {['about', 'services', 'skills', 'projects', 'contact'].map((section) => (
+          {['about', 'skills', 'projects','education', 'services', 'contact'].map((section) => (
                 <MDBNavbarItem key={section} className='nav-item'>
                   <MDBNavbarLink
                     className={`nav-link textLight ${activeLink === section ? 'active-link' : ''}`}

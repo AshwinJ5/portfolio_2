@@ -18,8 +18,8 @@ function Projects() {
         <h2>PROJECTS</h2>
         <div className='divCenter'>See My Work!</div>
 
-      <div  className="cont p-5 w-100"  data-aos-once='true'  data-aos='fade-right'>
-        <div className="boxe p-2">
+      <div  className="cont p-5 w-100" >
+        <div className="boxe p-2 "  data-aos-once='true'  data-aos='fade-right' >
           <div className="imgBx ">
             <img src={img1}/>
           </div>
@@ -33,7 +33,7 @@ function Projects() {
           </div>
           </a>          
         </div>
-        <div className="boxe p-2">
+        <div className="boxe p-2" data-aos-once='true'  data-aos='fade-right'  data-aos-delay='400'>
           <div className="imgBx">
             <img src={img2}/>
           </div>
@@ -47,7 +47,7 @@ function Projects() {
           </div>
           </a>        
         </div>
-        <div className="boxe  p-2">
+        <div className="boxe  p-2" data-aos-once='true'  data-aos='fade-right'  data-aos-delay='800'>
           <div className="imgBx">
           <img src={img3}/>
           </div>
@@ -61,7 +61,7 @@ function Projects() {
           </div>
           </a>          
         </div>
-        <div className="boxe p-2">
+        <div className="boxe p-2" data-aos-once='true'  data-aos='fade-right'  data-aos-delay='1200'>
           <div className="imgBx">           
           <img src={img4}/>
           </div>

@@ -17,8 +17,13 @@
     width: 70%;
     border-radius: 50%;
 }
+.container .col-lg-5 img:hover{
+    border: 2px #d50f9f  solid;
+    transition: .5s ease;
+}
 
 .github:hover .smediaLogo, .twitter:hover .smediaLogo{
     color: black;
 }
+
 

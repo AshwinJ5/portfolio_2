@@ -7,6 +7,7 @@ import htmlPng from '../assets/html.png'
 import reactjsPng from '../assets/reactjs.png'
 import mongodbPng from '../assets/mongodb.png'
 import postgresqlPng from '../assets/elephant.png'
+import gitPng from '../assets/git.png'
 import angularPng from '../assets/angularr.png'
 import nodePng from '../assets/node.png'
 import materialPng from '../assets/material.png'
@@ -83,9 +84,13 @@ function Skills() {
             </div>
         </div>
         <div className="row w-100 container text-center my-5"  data-aos-once='true' data-aos='fade-right'>
-            <div className="col-lg-12 col-12">
+            <div className="col-lg-6 col-6">
             <img src={githubPng} alt="" />
             <p>GITHUB</p>
+            </div>
+            <div className="col-lg-6 col-6">
+            <img src={gitPng} alt="" />
+            <p>GIT</p>
             </div>
             
         </div>

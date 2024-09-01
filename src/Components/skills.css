@@ -1,13 +1,13 @@
-.col-lg-2 img, .col-lg-4 img,  .col-lg-12 img{
+.col-lg-2 img, .col-lg-4 img,  .col-lg-6 img{
     width: 100px;
     height: 100px;
     padding: 10px;
     text-align: center;
 }
-.col-lg-2 img:hover,.col-lg-12 img:hover {
+.col-lg-2 img:hover,.col-lg-6 img:hover {
     transform: scale(1.175); 
     transition: transform 300ms ease-in;
-    cursor: pointer;
+    cursor: pointer !important ;
   }
   .mainSkillDiv:hover h2{
     color: #d50f9f !important;
@@ -16,4 +16,7 @@
   .col-4:hover p, .col-6:hover p{
     color: #d50f9f;
     font-weight: 600;
+    cursor: pointer !important ;
+
+
   }
